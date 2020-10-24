@@ -1,20 +1,18 @@
-﻿Log file open, 10/23/20 17:53:28
+﻿Log file open, 10/24/20 17:04:42
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MuseoVirtualUdem
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1856144448) SRandInit(1856144449).
+LogInit: Display: RandInit(1928031379) SRandInit(1928031379).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.187446
+LogStats: Stats thread started at 0.199944
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/GameSparks/Binaries/Win64/UE4Editor-GameSparks.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/GameSparks/Binaries/Win64/UE4Editor-OnlineSubsystemGameSparks.dll (API version 3709383).
@@ -194,172 +192,206 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: 
-LogInit: Base directory: D:/Mutant/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal  -epicusername="Forcame2" -epicuserid=f199f47330f747318e206e5ff79be176 -epiclocale=es-MX
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.10.23-22.53.30:348][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.23-22.53.30:348][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.23-22.53.30:399][  0]LogInit: Computer: DESKTOP-E44TFJF
-[2020.10.23-22.53.30:399][  0]LogInit: User: USER
-[2020.10.23-22.53.30:399][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.10.23-22.53.30:399][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.23-22.53.30:400][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.10.23-22.53.30:400][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.23-22.53.30:400][  0]LogMemory: Process Physical Memory: 272.66 MB used, 272.66 MB peak
-[2020.10.23-22.53.30:400][  0]LogMemory: Process Virtual Memory: 269.66 MB used, 269.66 MB peak
-[2020.10.23-22.53.30:400][  0]LogMemory: Physical Memory: 5040.43 MB used,  3097.18 MB free, 8137.61 MB total
-[2020.10.23-22.53.30:400][  0]LogMemory: Virtual Memory: 4762.63 MB used,  3097.18 MB free, 134217728.00 MB total
-[2020.10.23-22.53.30:573][  0]LogInit: Using OS detected language (es-ES).
-[2020.10.23-22.53.30:573][  0]LogInit: Using OS detected locale (es-CO).
-[2020.10.23-22.53.30:575][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2020.10.23-22.53.30:720][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.23-22.53.30:948][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.23-22.53.31:023][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2020.10.23-22.53.31:023][  0]LogD3D11RHI:       1977/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.10.23-22.53.31:027][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.23-22.53.31:027][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.23-22.53.31:027][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.23-22.53.31:035][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.23-22.53.31:035][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.23-22.53.31:035][  0]LogWindows: EnumDisplayDevices:
-[2020.10.23-22.53.31:035][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
-[2020.10.23-22.53.31:035][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2020.10.23-22.53.31:035][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2020.10.23-22.53.31:036][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2020.10.23-22.53.31:036][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.10.23-22.53.31:036][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2020.10.23-22.53.31:036][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.10.23-22.53.31:036][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.10.23-22.53.31:036][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
-[2020.10.23-22.53.31:083][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.23-22.53.31:097][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.10.23-22.53.31:099][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Intermediate/Shaders/WorkingDirectory/6844/).
-[2020.10.23-22.53.31:099][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USER/AppData/Local/Temp/UnrealShaderWorkingDir/72F04D5146EAF2899890768170A43923/'.
-[2020.10.23-22.53.31:099][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.23-22.53.32:061][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.10.23-22.53.32:111][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.10.23-22.53.32:163][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.10.23-22.53.32:212][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.10.23-22.53.32:263][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.10.23-22.53.32:314][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.10.23-22.53.32:361][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.10.23-22.53.32:407][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.10.23-22.53.32:447][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.10.23-22.53.32:493][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.10.23-22.53.32:538][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.10.23-22.53.32:585][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.10.23-22.53.32:630][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.10.23-22.53.32:676][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.10.23-22.53.32:770][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.10.23-22.53.32:770][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.10.23-22.53.32:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.10.23-22.53.32:852][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.10.23-22.53.32:935][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.10.23-22.53.32:959][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.10.23-22.53.33:004][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.10.23-22.53.33:050][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.10.23-22.53.33:095][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.10.23-22.53.33:141][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.10.23-22.53.33:141][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.23-22.53.33:536][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.23-22.53.33:617][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/USER/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.10.23-22.53.33:617][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/USER/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.10.23-22.53.33:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.23-22.53.33:617][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.23-22.53.33:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.23-22.53.33:617][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.23-22.53.33:633][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.23-22.53.33:646][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.23-22.53.33:655][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.10.23-22.53.33:656][  0]LogSlate: Using Freetype 2.6.0
-[2020.10.23-22.53.33:656][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.23-22.53.33:656][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.23-22.53.34:119][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.23-22.53.34:410][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.10.23-22.53.34:445][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.10.23-22.53.34:446][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.23-22.53.34:446][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.10.23-22.53.34:446][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.10.23-22.53.34:446][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.10.23-22.53.34:479][  0]LogNetVersion: MuseoVirtualUdem , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2631075334)
-[2020.10.23-22.53.34:637][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
-[2020.10.23-22.53.35:136][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.076123 seconds
-[2020.10.23-22.53.35:141][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.10.23-22.53.35:141][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2020.10.23-22.53.35:141][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.23-22.53.35:182][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.10.23-22.53.37:820][  0]UGameSparksModuleLog: Warning: GameSparks::StartupModule
-[2020.10.23-22.53.37:848][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.23-22.53.37:887][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.23-22.53.38:507][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.10.23-22.53.38:891][  0]SourceControl: El control de código fuente está desactivado
-[2020.10.23-22.53.38:891][  0]SourceControl: El control de código fuente está desactivado
-[2020.10.23-22.53.38:937][  0]SourceControl: El control de código fuente está desactivado
-[2020.10.23-22.53.38:985][  0]SourceControl: El control de código fuente está desactivado
-[2020.10.23-22.53.39:845][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.23-22.53.40:086][  0]LogOcInput: OculusInput pre-init called
-[2020.10.23-22.53.40:355][  0]LogEngine: Initializing Engine...
-[2020.10.23-22.53.40:357][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.23-22.53.40:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.10.23-22.53.40:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.10.23-22.53.40:713][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.23-22.53.40:742][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2020.10.23-22.53.40:811][  0]LogInit: FAudioDevice initialized.
-[2020.10.23-22.53.40:966][  0]LogDerivedDataCache: Saved boot cache 0.16s 78MB C:/Users/USER/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.10.23-22.53.40:983][  0]LogInit: Texture streaming: Enabled
-[2020.10.23-22.53.41:083][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.23-22.53.41:194][  0]LogInit: Transaction tracking system initialized
-[2020.10.23-22.53.41:461][  0]BlueprintLog: New page: Cargar el editor
-[2020.10.23-22.53.42:230][  0]LocalizationService: Localization service is disabled
-[2020.10.23-22.53.42:880][  0]LogConsoleResponse: Display: 
-[2020.10.23-22.53.43:067][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.23-22.53.43:067][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.23-22.53.43:067][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.10.23-22.53.43:808][  0]LogFileCache: Scanning file cache for directory 'C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/' took 0.02s
-[2020.10.23-22.53.44:160][  0]SourceControl: El control de código fuente está desactivado
-[2020.10.23-22.53.44:160][  0]Cmd: MAP LOAD FILE="C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Scenes/Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.23-22.53.44:161][  0]LightingResults: New page: Diseñar la iluminación
-[2020.10.23-22.53.44:195][  0]MapCheck: New page: Revisión del mapa
-[2020.10.23-22.53.44:195][  0]LightingResults: New page: Diseñar la iluminación
-[2020.10.23-22.53.47:514][  0]LogAIModule: Creating AISystem for world Game
-[2020.10.23-22.53.47:551][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.23-22.53.47:569][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.23-22.53.47:637][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67,665ms to complete.
-[2020.10.23-22.53.47:637][  0]LogFileHelpers: Loading map 'Game' took 3.477
-[2020.10.23-22.53.47:852][  0]LogCollectionManager: Loaded 0 collections in 0.001060 seconds
-[2020.10.23-22.53.47:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Saved/Collections/' took 0.01s
-[2020.10.23-22.53.47:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Developers/USER/Collections/' took 0.01s
-[2020.10.23-22.53.47:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Collections/' took 0.01s
-[2020.10.23-22.53.47:928][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.10.23-22.53.47:937][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2462 classes and 523 folders.
-[2020.10.23-22.53.47:991][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.23-22.53.48:299][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.10.23-22.53.48:403][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2020.10.23-22.53.48:426][  0]LogSlate: Took 0.000760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.23-22.53.48:429][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.23-22.53.48:449][  0]LogSlate: Took 0.015684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.23-22.53.48:600][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
-[2020.10.23-22.53.48:753][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2020.10.23-22.53.48:753][  0]LogLoad: (Engine Initialization) Total time: 20.91 seconds
-[2020.10.23-22.53.48:753][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.23-22.53.48:753][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.10.23-22.53.48:781][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.23-22.53.48:840][  0]LogSlate: Took 0.013929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.10.23-22.53.48:854][  1]LogAssetRegistry: Asset discovery search completed in 14.2402 seconds
-[2020.10.23-22.53.48:857][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2020.10.23-22.53.48:857][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
-[2020.10.23-22.53.50:700][200]LogEditorViewport: Clicking on Actor (LMB): BP_V_Model_C (BP_V_Model)
-[2020.10.23-22.53.50:778][202]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
-[2020.10.23-22.53.51:206][239]LogSlate: Took 0.020174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.10.23-22.53.57:539][889]LogSlate: Took 0.002589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.10.23-22.54.06:202][906]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.10.23-22.54.06:215][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Game" FILE="C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Scenes/Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.10.23-22.54.06:547][906]LogSavePackage: Save=279.49ms
-[2020.10.23-22.54.06:547][906]LogSavePackage: Moving 'C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Saved/Game7D45F2294ADB5852641F9C91DF3F6B7A.tmp' to 'C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Scenes/Game.umap'
-[2020.10.23-22.54.06:549][906]LogSavePackage: Display: Finished SavePackage C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Scenes/Game.umap
-[2020.10.23-22.54.06:579][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Game_BuiltData" FILE="C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Scenes/Game_BuiltData.uasset" SILENT=true
-[2020.10.23-22.54.06:641][906]LogSavePackage: Save=21.11ms
-[2020.10.23-22.54.06:641][906]LogSavePackage: Moving 'C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Saved/Game_BuiltDataA0C8A1A6481816FB76E71EBBDF071B2E.tmp' to 'C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Scenes/Game_BuiltData.uasset'
-[2020.10.23-22.54.06:642][906]LogSavePackage: Display: Finished SavePackage C:/Users/USER/Documents/GitHub/MuseoVirtualUdeM/Content/Scenes/Game_BuiltData.uasset
+[2020.10.24-22.04.44:503][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.24-22.04.44:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.24-22.04.44:515][  0]LogInit: Computer: LAPTOP-I9MQC5NQ
+[2020.10.24-22.04.44:515][  0]LogInit: User: crist
+[2020.10.24-22.04.44:515][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.24-22.04.44:515][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.24-22.04.44:515][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2020.10.24-22.04.44:515][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.24-22.04.44:515][  0]LogMemory: Process Physical Memory: 276.05 MB used, 276.06 MB peak
+[2020.10.24-22.04.44:515][  0]LogMemory: Process Virtual Memory: 272.05 MB used, 272.05 MB peak
+[2020.10.24-22.04.44:515][  0]LogMemory: Physical Memory: 6984.16 MB used,  5190.69 MB free, 12174.85 MB total
+[2020.10.24-22.04.44:515][  0]LogMemory: Virtual Memory: 4766.38 MB used,  5190.69 MB free, 134217728.00 MB total
+[2020.10.24-22.04.44:924][  0]LogInit: Using OS detected language (es-MX).
+[2020.10.24-22.04.44:924][  0]LogInit: Using OS detected locale (es-CO).
+[2020.10.24-22.04.44:927][  0]LogTextLocalizationManager: No specific localization for 'es-MX' exists, so the 'es' localization will be used.
+[2020.10.24-22.04.45:092][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.24-22.04.45:520][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.24-22.04.45:595][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.10.24-22.04.45:595][  0]LogD3D11RHI:       4019/0/6087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.24-22.04.45:605][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.10.24-22.04.45:605][  0]LogD3D11RHI:       128/0/6087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.24-22.04.45:608][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.24-22.04.45:608][  0]LogD3D11RHI:       0/0/6087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.24-22.04.45:608][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.24-22.04.45:638][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.24-22.04.45:639][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.10.24-22.04.45:639][  0]LogWindows: EnumDisplayDevices:
+[2020.10.24-22.04.45:639][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.10.24-22.04.45:639][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.10.24-22.04.45:640][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.10.24-22.04.45:640][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2020.10.24-22.04.45:640][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2020.10.24-22.04.45:640][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2020.10.24-22.04.45:641][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2020.10.24-22.04.45:641][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.24-22.04.45:641][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.10.24-22.04.45:641][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.24-22.04.45:641][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.24-22.04.45:641][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2020.10.24-22.04.45:694][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.24-22.04.45:707][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.24-22.04.45:709][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Intermediate/Shaders/WorkingDirectory/10236/).
+[2020.10.24-22.04.45:709][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/crist/AppData/Local/Temp/UnrealShaderWorkingDir/6265A5104CF8AD0F114F8FBEEB534EFE/'.
+[2020.10.24-22.04.45:709][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.24-22.04.47:106][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.10.24-22.04.47:218][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.10.24-22.04.47:331][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.10.24-22.04.47:446][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.10.24-22.04.47:578][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.10.24-22.04.47:714][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.10.24-22.04.47:831][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.10.24-22.04.47:954][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.10.24-22.04.48:079][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.10.24-22.04.48:196][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.10.24-22.04.48:311][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.10.24-22.04.48:420][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.10.24-22.04.48:529][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.10.24-22.04.48:641][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.10.24-22.04.48:864][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.10.24-22.04.48:864][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.10.24-22.04.48:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.10.24-22.04.49:073][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.10.24-22.04.49:255][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.10.24-22.04.49:315][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.10.24-22.04.49:422][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.10.24-22.04.49:531][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.10.24-22.04.49:645][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.10.24-22.04.49:755][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.10.24-22.04.49:755][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.24-22.04.50:918][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.24-22.04.50:994][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/crist/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.10.24-22.04.50:994][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/crist/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.10.24-22.04.50:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.24-22.04.50:995][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.24-22.04.50:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.24-22.04.50:995][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.24-22.04.51:012][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.24-22.04.51:025][  0]LogDerivedDataCache: Using Local data cache path C:/Users/crist/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.24-22.04.51:035][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.10.24-22.04.51:035][  0]LogSlate: Using Freetype 2.6.0
+[2020.10.24-22.04.51:036][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.24-22.04.51:036][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.24-22.04.51:463][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.24-22.04.52:144][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.10.24-22.04.52:242][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.10.24-22.04.52:242][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.24-22.04.52:242][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.10.24-22.04.52:242][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.10.24-22.04.52:242][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.10.24-22.04.52:279][  0]LogNetVersion: MuseoVirtualUdem , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2631075334)
+[2020.10.24-22.04.52:544][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2020.10.24-22.04.53:364][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.100902 seconds
+[2020.10.24-22.04.53:372][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.10.24-22.04.53:372][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2020.10.24-22.04.53:372][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.24-22.04.53:553][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.10.24-22.04.59:744][  0]UGameSparksModuleLog: Warning: GameSparks::StartupModule
+[2020.10.24-22.04.59:811][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.24-22.04.59:898][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.24-22.05.02:099][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.10.24-22.05.03:095][  0]SourceControl: El control de código fuente está desactivado
+[2020.10.24-22.05.03:095][  0]SourceControl: El control de código fuente está desactivado
+[2020.10.24-22.05.03:235][  0]SourceControl: El control de código fuente está desactivado
+[2020.10.24-22.05.03:362][  0]SourceControl: El control de código fuente está desactivado
+[2020.10.24-22.05.05:582][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.24-22.05.06:315][  0]LogOcInput: OculusInput pre-init called
+[2020.10.24-22.05.06:972][  0]LogEngine: Initializing Engine...
+[2020.10.24-22.05.06:975][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.24-22.05.07:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.10.24-22.05.07:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.10.24-22.05.07:546][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.24-22.05.07:556][  0]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.10.24-22.05.07:591][  0]LogInit: FAudioDevice initialized.
+[2020.10.24-22.05.07:805][  0]LogDerivedDataCache: Saved boot cache 0.21s 78MB C:/Users/crist/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.10.24-22.05.07:819][  0]LogInit: Texture streaming: Enabled
+[2020.10.24-22.05.08:110][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.24-22.05.08:430][  0]LogInit: Transaction tracking system initialized
+[2020.10.24-22.05.09:346][  0]BlueprintLog: New page: Cargar el editor
+[2020.10.24-22.05.11:570][  0]LocalizationService: Localization service is disabled
+[2020.10.24-22.05.13:321][  0]LogConsoleResponse: Display: 
+[2020.10.24-22.05.13:595][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.24-22.05.13:595][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.24-22.05.13:595][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.10.24-22.05.13:973][  0]LogFileCache: Scanning file cache for directory 'C:/Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/' took 0.02s
+[2020.10.24-22.05.16:385][  0]SourceControl: El control de código fuente está desactivado
+[2020.10.24-22.05.16:385][  0]Cmd: MAP LOAD FILE="../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/Scenes/Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.24-22.05.16:385][  0]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-22.05.16:486][  0]MapCheck: New page: Revisión del mapa
+[2020.10.24-22.05.16:486][  0]LightingResults: New page: Diseñar la iluminación
+[2020.10.24-22.05.17:468][  0]LogAIModule: Creating AISystem for world Game
+[2020.10.24-22.05.17:509][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.24-22.05.17:523][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.24-22.05.17:615][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92,143ms to complete.
+[2020.10.24-22.05.17:615][  0]LogFileHelpers: Loading map 'Game' took 1.230
+[2020.10.24-22.05.17:826][  0]LogCollectionManager: Loaded 0 collections in 0.001857 seconds
+[2020.10.24-22.05.17:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Saved/Collections/' took 0.01s
+[2020.10.24-22.05.17:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/Developers/crist/Collections/' took 0.01s
+[2020.10.24-22.05.17:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/Collections/' took 0.01s
+[2020.10.24-22.05.17:992][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.10.24-22.05.18:001][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2462 classes and 523 folders.
+[2020.10.24-22.05.18:173][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.24-22.05.18:229][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.24-22.05.18:335][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.10.24-22.05.18:361][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.24-22.05.18:364][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.24-22.05.18:385][  0]LogSlate: Took 0.000719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.24-22.05.18:528][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2020.10.24-22.05.18:856][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.10.24-22.05.18:856][  0]LogLoad: (Engine Initialization) Total time: 38.17 seconds
+[2020.10.24-22.05.18:856][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.24-22.05.18:856][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2020.10.24-22.05.18:856][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2020.10.24-22.05.18:892][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.24-22.05.18:912][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.24-22.05.18:932][  1]LogAssetRegistry: Asset discovery search completed in 26.4108 seconds
+[2020.10.24-22.05.18:934][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.10.24-22.05.18:935][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2020.10.24-22.05.29:711][635]LogEditorViewport: Clicking on Actor (LMB): BP_Obra_C (Obra)
+[2020.10.24-22.05.43:208][435]LogEditorViewport: Clicking on Actor (LMB): BP_V_Model_C (BP_V_Model)
+[2020.10.24-22.06.32:062][572]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.24-22.06.32:087][572]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\crist\OneDrive\Escritorio\Flecha\flecha.fbx)
+[2020.10.24-22.06.32:100][572]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2020.10.24-22.06.32:100][572]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2020.10.24-22.06.32:100][572]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2020.10.24-22.06.32:100][572]LogFbx: ItemName: NodeAttribute, ItemCount : 4
+[2020.10.24-22.06.32:100][572]LogFbx: ItemName: Model, ItemCount : 5
+[2020.10.24-22.06.32:100][572]LogFbx: ItemName: Geometry, ItemCount : 1
+[2020.10.24-22.06.32:100][572]LogFbx: ItemName: Material, ItemCount : 1
+[2020.10.24-22.06.32:107][572]LogFbx: Loading FBX Scene from C:\Users\crist\OneDrive\Escritorio\Flecha\flecha.fbx
+[2020.10.24-22.06.32:114][572]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.24-22.06.33:692][572]LogFbx: Loading FBX Scene from C:\Users\crist\OneDrive\Escritorio\Flecha\flecha.fbx
+[2020.10.24-22.06.33:700][572]LogFbx: FBX Scene Loaded Succesfully
+[2020.10.24-22.06.33:701][572]LogLinker: No puede encontrar el archivo '/Game/3DModels/Flecha/Blanco'
+[2020.10.24-22.06.33:701][572]LogLinker: No puede encontrar el archivo '/Game/3DModels/Flecha/Blanco'
+[2020.10.24-22.06.33:874][572]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2020.10.24-22.06.33:918][572]LogFbx: Warning: Triangulating static mesh pCube5
+[2020.10.24-22.06.33:923][572]LogStaticMesh: Generando la malla estática flecha...
+[2020.10.24-22.06.33:925][572]LogStaticMesh: Built static mesh [0.00s] /Game/3DModels/Flecha/flecha.flecha
+[2020.10.24-22.06.33:930][572]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.10.24-22.06.33:930][572]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2020.10.24-22.06.41:797][961]LogRenderer: Reallocating scene render targets to support 1144x708 Format 10 NumSamples 1 (Frame:1).
+[2020.10.24-22.06.48:274][323]LogStaticMesh: Generando la malla estática flecha...
+[2020.10.24-22.06.48:276][323]LogStaticMesh: Built static mesh [0.00s] /Game/3DModels/Flecha/flecha.flecha
+[2020.10.24-22.06.51:614][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3DModels/Flecha/flecha" FILE="../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/3DModels/Flecha/flecha.uasset" SILENT=true
+[2020.10.24-22.06.51:639][502]LogSavePackage: Save=22.14ms
+[2020.10.24-22.06.51:639][502]LogSavePackage: Moving '../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Saved/flechaF522D55B40CD1FC446BDB5962F98F44E.tmp' to '../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/3DModels/Flecha/flecha.uasset'
+[2020.10.24-22.06.51:644][502]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/3DModels/Flecha/flecha.uasset
+[2020.10.24-22.06.56:135][729]LogSavePackage: Save=278.38ms
+[2020.10.24-22.06.56:135][729]LogSavePackage: Moving '../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Saved/Game9AB2D3F8454CCBB593771591545B7399.tmp' to '../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/Scenes/Game.umap'
+[2020.10.24-22.06.56:142][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/Scenes/Game.umap
+[2020.10.24-22.06.56:184][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Game_BuiltData" FILE="../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/Scenes/Game_BuiltData.uasset" SILENT=true
+[2020.10.24-22.06.56:264][729]LogSavePackage: Save=27.91ms
+[2020.10.24-22.06.56:264][729]LogSavePackage: Moving '../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Saved/Game_BuiltDataF712A4CB474F32E119001F8EED7EC586.tmp' to '../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/Scenes/Game_BuiltData.uasset'
+[2020.10.24-22.06.56:266][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/Scenes/Game_BuiltData.uasset
+[2020.10.24-22.06.58:106][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3DModels/Flecha/Blanco" FILE="../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/3DModels/Flecha/Blanco.uasset" SILENT=true
+[2020.10.24-22.06.58:119][830]LogSavePackage: Save=11.04ms
+[2020.10.24-22.06.58:119][830]LogSavePackage: Moving '../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Saved/BlancoB0C4D5C04A3B7DEADA7BC2AF2BFB3AE5.tmp' to '../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/3DModels/Flecha/Blanco.uasset'
+[2020.10.24-22.06.58:123][830]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/crist/OneDrive/Escritorio/repositorios/Museo/MuseoVirtualUdeM/Content/3DModels/Flecha/Blanco.uasset
